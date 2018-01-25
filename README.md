@@ -1,3 +1,29 @@
+# 尼古拉斯-凯奇和特朗普的换脸人生
+[!img](/img/102668242.jpg)
+
+[!img](/img/115597135.jpg)
+
+通过 RussellCloud ,只需一条指令,就能用神经网络实现照片中两人的换脸.
+
+[!img](/img/115597132.jpg)
+
+    russell run --data f3fadfadf6ac417e9f20813603187344:data "python run.py"
+
+
+# 以下是详细的配置要求
+
+## 在RussellCloud平台上实现快速复现
+在[RussellCloud](http://russellcloud.com)上新建名为`faceswap`的项目，选择默认容器环境`tensorflow-1.4`
+
+```
+git clone git@github.com:RussellCloud/deepfakes_faceswap.git
+cd deepfakes_faceswap
+russell init --name faceswap
+russell run --data f3fadfadf6ac417e9f20813603187344:data "python run.py"
+```	
+
+约一分钟左右,就可以在该项目的网页端检查输出. 
+---
 # deepfakes_faceswap
 This is the code from [deepfakes' faceswap project](https://www.reddit.com/user/deepfakes/).
 Hope we can improve it together, HAVE FUN!
