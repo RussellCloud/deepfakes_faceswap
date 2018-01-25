@@ -1,11 +1,16 @@
 # 尼古拉斯-凯奇和特朗普的换脸人生
-![img](/img/102668242.jpg)
 
-![img](/img/115597135.jpg)
+<p align="center">
+<img src="/img/102668242.jpg" height="300">
+<img src="/img/115597135.jpg" height="300">
+</p>
 
 通过 RussellCloud ,只需一条指令,就能用神经网络实现照片中两人的换脸.
 
-![img](/img/115597132.jpg)
+<p align="center">
+<img src="/img/115597132.jpg" height="300">
+</p>
+
 
     russell run --data f3fadfadf6ac417e9f20813603187344:data "python run.py"
 
@@ -25,4 +30,4 @@ russell run --data f3fadfadf6ac417e9f20813603187344:data "python run.py"
 约一分钟左右,就可以在该项目的网页端检查输出. 
 ---
 ## 项目背景
-本项目起源于 reddit  ,一名网友通过类似思路,把AV的头换成了自己喜爱的某明星. :) 
+本项目起源于 reddit  ,一名网友通过类似思路,把AV的头换成了自己喜爱的某明星 :) 
